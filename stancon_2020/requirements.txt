@@ -2,3 +2,4 @@ jupyterlab
 arviz
 pystan
 pymc3
+rise
