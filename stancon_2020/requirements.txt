@@ -1,0 +1,4 @@
+jupyterlab
+arviz
+pystan
+pymc3
