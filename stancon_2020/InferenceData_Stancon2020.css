@@ -10,10 +10,6 @@
   --xr-background-color-row-odd: var(--jp-layout-color2, #eeeeee);
 }
 
-.h1 {
-    /* Test to see if things work */
-    color: red 
-}
 
 .xr-wrap {
   display: block!important;
