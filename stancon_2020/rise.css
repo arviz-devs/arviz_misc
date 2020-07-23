@@ -49,7 +49,8 @@
 .xr-sections {
   padding-left: 0 !important;
   display: grid!important;
-  grid-template-columns: 150px auto auto 1fr 20px 20px;
+  /* Make grid larger so for xarray repr thing like posterior predictive dont wrap*/
+  grid-template-columns: 250px auto auto 1fr 20px 20px;
 }
 
 .xr-section-item {
