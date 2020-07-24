@@ -51,7 +51,7 @@
   display: grid!important;
   /* Make grid larger so for xarray repr thing like posterior predictive dont wrap*/
   /* Changed back to 150 beacuse its breaking rest of repr */
-  grid-template-columns: 150px auto auto 1fr 20px 20px;
+  grid-template-columns: 150px auto auto 1fr 20px 20px!important;
 }
 
 .xr-section-item {
@@ -117,13 +117,13 @@
 }
 
 .xr-section-inline-details {
-  grid-column: 2 / -1;
+  grid-column: 2 / -1 !important;
 }
 
 .xr-section-details {
   display: none!important;
-  grid-column: 1 / -1;
-  margin-bottom: 5px;
+  grid-column: 1 / -1 !important;
+  margin-bottom: 5px !important;
 }
 
 .xr-section-summary-in:checked ~ .xr-section-details {
@@ -131,9 +131,9 @@
 }
 
 .xr-array-wrap {
-  grid-column: 1 / -1;
+  grid-column: 1 / -1 !important;
   display: grid!important;
-  grid-template-columns: 20px auto;
+  grid-template-columns: 20px auto !important;
 }
 
 .xr-array-wrap > label {
@@ -165,7 +165,7 @@
   display: inline-block !important;
   list-style: none!important;
   padding: 0 !important;
-  margin: 0;
+  margin: 0!important;
 }
 
 .xr-dim-list li {
@@ -200,11 +200,11 @@
 .xr-var-item label,
 .xr-var-item > .xr-var-name span {
   background-color: var(--xr-background-color-row-even);
-  margin-bottom: 0;
+  margin-bottom: 0!important;
 }
 
 .xr-var-item > .xr-var-name:hover span {
-  padding-right: 5px;
+  padding-right: 5px!important;
 }
 
 .xr-var-list > li:nth-child(odd) > div,
@@ -276,14 +276,14 @@
 .xr-attrs,
 .xr-var-attrs,
 .xr-var-data {
-  grid-column: 1 / -1;
+  grid-column: 1 / -1!important;
 }
 
 dl.xr-attrs {
-  padding: 0;
-  margin: 0;
+  padding: 0!important;
+  margin: 0!important;
   display: grid!important;
-  grid-template-columns: 125px auto;
+  grid-template-columns: 125px auto!important;
 }
 
 .xr-attrs dt, dd {
