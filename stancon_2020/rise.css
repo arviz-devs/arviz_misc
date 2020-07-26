@@ -13,8 +13,8 @@
 
 .xr-wrap {
   display: block!important;
-  min-width: 300px!important;
-  max-width: 700px!important;
+  min-width: 700px!important;
+  max-width: 900px!important;
 }
 
 .xr-text-repr-fallback {
@@ -51,7 +51,7 @@
   display: grid!important;
   /* Make grid larger so for xarray repr thing like posterior predictive dont wrap*/
   /* Changed back to 150 beacuse its breaking rest of repr */
-  grid-template-columns: 150px auto auto 1fr 20px 20px!important;
+  grid-template-columns: 215px auto auto 1fr 20px 20px!important;
 }
 
 .xr-section-item {
