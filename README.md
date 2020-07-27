@@ -1,4 +1,4 @@
-# Arviz Miscellaneous
+# ArviZ Miscellaneous
 Various odds and ends that don't quite fit well anywhere else, would benefit
 from version control and collobration, and is useful to the ArviZ community at
 large.
