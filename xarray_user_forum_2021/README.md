@@ -1,7 +1,7 @@
-# StanCon 2020 ArviZ presentation
+# Xarray User Summit 2021 ArviZ presentation
 
-This folder contains the presentation about ArviZ and `InferenceData` for
-StanCon 2020. The presentation is created from a Jupyter notebook by using
+This folder contains the presentation about ArviZ, `InferenceData` and Xarray for
+Xarray User Forum as part of Dask Summit 2021. The presentation is created from a Jupyter notebook by using
 [RISE](https://rise.readthedocs.io/en/stable/) and is then served with
 [Binder](https://mybinder.org/). The presentation is available in the
 following languages:
